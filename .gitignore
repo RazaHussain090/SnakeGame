@@ -1,0 +1,34 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Pp]ublish/
+
+# NuGet
+*.nupkg
+**/packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# MonoGame / MGCB Content pipeline intermediates
+Content/**/obj/
+**/Content/obj/
+
+# Rider / VS / VS Code (user/machine-specific)
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
